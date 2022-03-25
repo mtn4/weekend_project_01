@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      @font-face {
+        font-family: brandon-grotesque;
+        src: url(https://use.typekit.net/af/037411/000000000000000077359df7/30/l?subset_id=2&fvd=i9&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/037411/000000000000000077359df7/30/d?subset_id=2&fvd=i9&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/037411/000000000000000077359df7/30/a?subset_id=2&fvd=i9&v=3)
+            format("opentype");
+        font-weight: 900;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: brandon-grotesque;
+        src: url(https://use.typekit.net/af/1da05b/0000000000000000000132df/27/l?subset_id=2&fvd=n4&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/1da05b/0000000000000000000132df/27/d?subset_id=2&fvd=n4&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/1da05b/0000000000000000000132df/27/a?subset_id=2&fvd=n4&v=3)
+            format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: brandon-grotesque;
+        src: url(https://use.typekit.net/af/d03e48/000000000000000077359df2/30/l?subset_id=2&fvd=n5&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/d03e48/000000000000000077359df2/30/d?subset_id=2&fvd=n5&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/d03e48/000000000000000077359df2/30/a?subset_id=2&fvd=n5&v=3)
+            format("opentype");
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: brandon-grotesque;
+        src: url(https://use.typekit.net/af/8f4e31/0000000000000000000132e3/27/l?subset_id=2&fvd=n7&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/8f4e31/0000000000000000000132e3/27/d?subset_id=2&fvd=n7&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/8f4e31/0000000000000000000132e3/27/a?subset_id=2&fvd=n7&v=3)
+            format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: brandon-grotesque;
+        src: url(https://use.typekit.net/af/257c86/000000000000000077359df6/30/l?subset_id=2&fvd=n9&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/257c86/000000000000000077359df6/30/d?subset_id=2&fvd=n9&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/257c86/000000000000000077359df6/30/a?subset_id=2&fvd=n9&v=3)
+            format("opentype");
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: brandon-grotesque;
+        src: url(https://use.typekit.net/af/32d3ee/0000000000000000000132e0/27/l?subset_id=2&fvd=i4&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/32d3ee/0000000000000000000132e0/27/d?subset_id=2&fvd=i4&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/32d3ee/0000000000000000000132e0/27/a?subset_id=2&fvd=i4&v=3)
+            format("opentype");
+        font-weight: 400;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: brandon-grotesque;
+        src: url(https://use.typekit.net/af/383ab4/0000000000000000000132e4/27/l?subset_id=2&fvd=i7&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/383ab4/0000000000000000000132e4/27/d?subset_id=2&fvd=i7&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/383ab4/0000000000000000000132e4/27/a?subset_id=2&fvd=i7&v=3)
+            format("opentype");
+        font-weight: 700;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: futura-pt;
+        src: url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3)
+            format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: futura-pt;
+        src: url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?subset_id=2&fvd=n7&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?subset_id=2&fvd=n7&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?subset_id=2&fvd=n7&v=3)
+            format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: futura-pt;
+        src: url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/l?subset_id=2&fvd=i4&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/d?subset_id=2&fvd=i4&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/a?subset_id=2&fvd=i4&v=3)
+            format("opentype");
+        font-weight: 400;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: futura-pt;
+        src: url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/l?subset_id=2&fvd=i7&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/d?subset_id=2&fvd=i7&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/a?subset_id=2&fvd=i7&v=3)
+            format("opentype");
+        font-weight: 700;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+    </style>
+    <script type="text/javascript">
+      try {
+        Typekit.load();
+      } catch (e) {}
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="pixar.css" />
+    <title>Pixar Animation Studios</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img
+          class="logo"
+          src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1490028055234-9JATCK0M9B72ZVA74W6Z/logo5.png?format=1500w"
+          alt="pixar"
+        />
+        <ul>
+          <li>FEATURE FILMS</li>
+          <li>SHORT FILMS</li>
+          <li>TECHNOLOGY</li>
+          <li>CAREERS</li>
+          <li>EXTRAS</li>
+          <li>ABOUT</li>
+        </ul>
+      </nav>
+      <div id="main">
+        <img
+          class="pic"
+          src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1470175715831-NUJOMI6VW13ZNT1MI0VB/image-asset.jpeg?format=750w"
+          alt="pixar"
+        />
+        <div class="text">
+          <h1>awww...don’t cry.</h1>
+          <br />
+          <p>It's just a 404 Error!</p>
+          <p>
+            What you’re looking for may have been misplaced in Long Term Memory.
+          </p>
+        </div>
+      </div>
+      <div class="clr"></div>
+      <div id="footer">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+      <div id="links">
+        <h3>PRIVACY POLICY | TERMS OF USE</h3>
+        <h3>
+          Your California Privacy Rights | Children’s Online Privacy Policy
+        </h3>
+        <h3>Interest-Based Ads | Do Not Sell My PERSONAL INFORMATION</h3>
+        <br />
+        <h3>© 1986-2022 disney / pixar</h3>
+        <br /><br /><br /><br />
+      </div>
+    </header>
+  </body>
+</html>
